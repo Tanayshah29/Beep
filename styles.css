@@ -1,0 +1,318 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  font-size: 16px;
+  font-family: "proxima-semi";
+  color: #22262a;
+  background: #f1f3f4 !important;
+}
+.col-md-9{
+  padding-left: 12px !important;
+}
+@font-face {
+  font-family: 'proxima-semi';
+  src: url('../fonts/Proxima Nova Semibold.otf');
+}
+
+@font-face {
+  font-family: 'proxima';
+  src: url('../fonts/ProximaNova-Regular.otf');
+}
+
+.navbar {
+
+  height: 80px !important;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+}
+
+.icons-group {
+  margin: 0;
+  padding: 0;
+}
+
+.categories {
+  list-style-type: none;
+}
+
+.categories li {
+  display: block;
+
+}
+
+.all-categories {
+  padding: 20px;
+  margin-top: 24px;
+  width: 100%;
+}
+
+.home-first-row{
+  margin-top: 37px !important;
+  margin-bottom: 37px !important;
+  font-family: 'proxima-semi' !important;
+  font-size: 14px !important;  
+}
+.home-first-row a{
+  font-family: 'proxima-semi' !important;
+  font-size: 14px !important;
+  font-weight: 14px !important; 
+}
+.home a{
+  color: #33A0FF !important;
+  font-family: 'proxima-semi' !important;
+  font-size: 14px !important;  
+}
+
+.first-row {
+  max-height: 300px;
+}
+
+ul {
+  overflow: hidden;
+}
+
+li {
+  display: inline-block;
+}
+
+.filters-nav {
+  list-style-type: none !important;
+  margin: auto !important;
+}
+
+.list-items {
+  padding: 10px;
+}
+
+.black_18 {
+  font-size: 18px;
+  font-family: 'proxima-semi' !important;
+  color: #22262a !important;
+}
+
+.black_16 {
+  font-size: 16px;
+  font-family: 'proxima-semi';
+  color: #22262a !important;
+}
+
+.blue_16 {
+  font-size: 16px;
+  font-family: 'proxima-semi' !important;
+  color: #33A0FF !important;
+}
+
+.black_16_regular {
+  font-size: 16px !important;
+  font-family: 'proxima' !important;
+  color: #22262a !important;
+}
+
+select {
+  width: 100px;
+  height: 25px;
+}
+
+.dot {
+  height: 20px;
+  width: 20px;
+  border-color: white;
+  border-width: 2px;
+  border-radius: 50%;
+
+}
+
+.btn,
+.btn-logo {
+  color: #22262a;
+  font-family: proxima-semi;
+  font-size: 16px;
+  font-weight: 16px;
+}
+
+a {
+  color: #22262a;
+  font-family: proxima-semi !important;
+  font-size: 16px !important;
+  font-weight: 16px !important;
+}
+
+.container {
+  background: #f1f3f4;
+  padding: 12px;
+}
+
+.all-categories-head {
+  padding-left: 0px;
+  padding-top: 0px;
+  width: 100%;
+  height: 300px;
+  background-color: white;
+}
+
+.row {
+
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 25px;
+}
+
+.checked {
+  color: rgb(231, 198, 8);
+}
+
+.card-title {
+
+  color: #22262a !important;
+  font-family: proxima-semi !important;
+  font-size: 16px !important;
+  font-weight: 16px !important;
+}
+
+.card-img-top {
+  padding: 20px;
+  height: 250px;
+}
+
+.card-text {
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+.third-row {
+  padding: 40px;
+  text-align: center;
+  font-family: proxima-semi !important;
+  font-size: 16px !important;
+  padding-bottom: 250px;
+}
+
+.third-row a {
+  font-family: proxima-semi !important;
+  font-size: 16px !important;
+  background-color: #f1f3f4;
+  color: #22262a;
+  padding: 15px 25px;
+  text-decoration: none;
+
+}
+
+.third-row a.active {
+  text-decoration: none;
+  background-color: #22262a;
+  color: white;
+
+}
+
+.third-row a:hover:not(.active) {
+  text-decoration: none;
+  background-color: #22262a;
+  color: white;
+}
+
+footer {
+  position: relative;
+  bottom: 0px;
+  height: 350px;
+  width: 100%;
+  background: #f1f3f4;
+  font-family: proxima-semi !important;
+  box-shadow: 3px 4px 5px 6px #e5e8ea;
+
+}
+
+.main-content {
+  display: flex;
+
+}
+
+.main-content .box {
+  flex-basis: 50%;
+  padding: 20px 40px;
+}
+
+.box h2 {
+  font-size: 18px;
+  font-family: 'proxima-semi';
+}
+
+.box .content {
+  margin: 20px 0 0 0;
+  font-size: 14px;
+  font-family: 'proxima';
+}
+
+footer .bottom-content {
+  height: 50px;
+  box-shadow: 3px 4px 5px 6px #e5e8ea;
+  text-align: left;
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  padding: 30px 40px;
+  width: 100%;
+  font-size: 16px !important;
+  font-family: 'proxima-semi' !important;
+  flex-basis: 50%;
+  padding-bottom: 80px;
+}
+
+.bottom-content .left-bottom {
+  color: #c1c8ce;
+  flex: 5;
+}
+
+.all-categories .button {
+  border: 0px;
+}
+
+.carousel-item {
+
+  background-color: dodgerblue;
+  height: 340px;
+  width: 100%;
+  text-align: right;
+  font-family: 'proxima';
+  padding-right: 45px;
+  border-radius: .25rem;
+}
+
+.carousel-caption {
+  left: 10% !important;
+}
+
+.carousel .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.carousel-left {
+  width: 95%;
+  height: 80%;
+  float: left;
+}
+
+.some-text {
+  float: left;
+  width: 40%;
+  height: auto;
+  text-align: left;
+}
+
+.some-text a {
+  color: white;
+  padding-bottom: 2px;
+  border-bottom: 3px solid white;
+  text-decoration: bold;
+
+}
+
+.space {
+  line-height: 30px;
+}
